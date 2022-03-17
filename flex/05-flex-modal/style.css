@@ -17,9 +17,11 @@ body {
 
 .modal {
   background: white;
+  display: flex;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px;
 }
 
 .icon {
@@ -27,12 +29,13 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
+  min-width: 42px;
   height: 42px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
 }
 
 .close-button {
@@ -46,6 +49,31 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
+}
+
+.top {
+  display: flex;
+  gap: 10px;
+}
+
+.header {
+  flex: 2;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 5px;
+  margin-left: auto;
+}
+
+.text {
+  flex: auto;
 }
 
 button {
